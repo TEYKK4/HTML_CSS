@@ -1,0 +1,22 @@
+body {
+    background-color: #ed9eae;
+}
+
+div.product {
+    color: white;
+    background-color: #c66376;
+    margin: 10px;
+}
+
+div.product-name {
+    background-color: #9e354a;
+    display: table-cell;
+    padding: 7px 15px;
+}
+
+div.product-number {
+    background-color: #c66376;
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+}

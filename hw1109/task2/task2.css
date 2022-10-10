@@ -1,0 +1,52 @@
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 30px;
+}
+
+.unchecked-task1 {
+    background-color: rgb(165, 204, 218);
+}
+
+.unchecked-task2 {
+    background-color: rgb(173, 216, 230);
+}
+
+.checked-task {
+    background-color: rgb(226, 226, 226);
+}
+
+.unchecked-task1,
+.unchecked-task2,
+.checked-task {
+    padding: 14px;
+    margin: 0 30px;
+}
+
+.checkbox-image {
+    width: 20px;
+    height: 20px;
+}
+
+.checkbox-image-element {
+    display: table-cell;
+    padding-right: 20px;
+    padding-left: 35px;
+}
+
+.x-element {
+    display: table-cell;
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.unchecked-text {
+    display: table-cell;
+    font-size: 20px;
+}
+
+.checked-text {
+    display: table-cell;
+    font-size: 20px;
+    text-decoration: line-through;
+}

@@ -1,0 +1,58 @@
+.block {
+    display: inline-block;
+}
+
+#youtube {
+    height: 80px;
+    width: 80px;
+    background: url("icons/youtube.png");
+}
+#youtube:hover {
+    background: url("icons/youtube-hovered.png");
+}
+
+#instagram {
+    height: 80px;
+    width: 80px;
+    background: url("icons/instagram.png");
+}
+#instagram:hover {
+    background: url("icons/instagram-hovered.png");
+}
+
+#twitter {
+    height: 80px;
+    width: 80px;
+    background: url("icons/twitter.png");
+}
+#twitter:hover {
+    background: url("icons/twitter-hovered.png");
+}
+
+#facebook {
+    height: 80px;
+    width: 80px;
+    background: url("icons/facebook.png");
+}
+#facebook:hover {
+    background: url("icons/facebook-hovered.png");
+}
+
+#microsoft {
+    height: 80px;
+    width: 80px;
+    background: url("icons/microsoft.png");
+}
+#microsoft:hover {
+    background: url("icons/microsoft-hovered.png");
+}
+
+#skype {
+    height: 80px;
+    width: 80px;
+    background: url("icons/skype.png");
+}
+#skype:hover {
+    background: url("icons/skype-hovered.png");
+}
+

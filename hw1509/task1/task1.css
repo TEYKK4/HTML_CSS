@@ -1,0 +1,75 @@
+.subscription-table {
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.subscription-table td,
+.subscription-table th {
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.subscription-table th:nth-child(2)
+{
+    border-top-left-radius: 6px;
+}
+
+.subscription-table > tbody > tr:last-child > td:last-child
+{
+    border-bottom-right-radius: 6px;
+}
+
+.subscription-table > tbody > tr:last-child > td:nth-child(2)
+{
+    border-bottom-left-radius: 6px;
+}
+
+.subscription-table th:last-child
+{
+    border-top-right-radius: 6px;
+}
+
+.subscription-table > thead > tr > th:nth-child(2),
+.subscription-table > tbody > tr:last-child > td:nth-child(2) {
+    background: rgb(127, 209, 255);
+}
+
+.subscription-table > thead > tr > th:nth-child(3),
+.subscription-table > tbody > tr:last-child > td:nth-child(3) {
+    background: rgb(69, 168, 223);
+}
+
+.subscription-table > thead > tr > th:nth-child(4),
+.subscription-table > tbody > tr:last-child > td:nth-child(4) {
+    background: rgb(35, 136, 192);
+}
+
+.subscription-table > thead > tr > th:nth-child(5),
+.subscription-table > tbody > tr:last-child > td:nth-child(5) {
+    background: rgb(10, 105, 159);
+}
+
+.subscription-table > tbody > tr:last-child,
+.subscription-table > tbody > tr:nth-child(4) > td:not(:first-child) {
+    font-weight: bold;
+}
+
+.subscription-table > tbody > tr > td:nth-child(2n) {
+    background-image: linear-gradient(180deg, rgb(224, 224, 224) 10px, rgb(189, 189, 189) 30px);
+}
+
+.subscription-table > tbody > tr > td:nth-child(2n+1) {
+    background-image: linear-gradient(180deg, rgb(105, 105, 105) 10px, rgb(85, 85, 85) 30px);
+    color: white;
+}
+
+.subscription-table > tbody > tr > td:first-child {
+    background: white;
+    text-align: right;
+    color: black;
+}
+
+img {
+    width: 16px;
+    height: 16px;
+}

@@ -1,0 +1,25 @@
+#list-text {
+    font-weight: bold;
+}
+
+ol.content-list {
+    list-style-type: upper-roman;
+}
+ol.content-list > li::marker {
+    font-weight: bold;
+}
+
+ol.content-info-list {
+    list-style-type: numeric;
+}
+ol.content-info-list > li::marker {
+    font-weight: bold;
+}
+
+ol.content-sub-info-list {
+    list-style-type: lower-latin;
+}
+ol.content-sub-info-list > li::marker {
+    font-weight: bold;
+}
+

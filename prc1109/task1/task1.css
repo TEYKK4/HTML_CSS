@@ -1,0 +1,19 @@
+#season-list-text {
+    font-weight: bold;
+}
+
+ul.season-list {
+    list-style-type: none;
+}
+ul.winter-list {
+    list-style-image: url("Task1Icons/winter_16.png");
+}
+ul.spring-list {
+    list-style-image: url("Task1Icons/spring_16.png");
+}
+ul.summer-list {
+    list-style-image: url("Task1Icons/summer_16.png");
+}
+ul.autumn-list {
+    list-style-image: url("Task1Icons/autumn_16.png");
+}

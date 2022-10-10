@@ -1,0 +1,78 @@
+// Width variables (appears count calculates by raw css)
+@width0: 350px; // Appears 2 times
+@width1: 90%; // Appears 4 times
+
+
+body {
+  background: radial-gradient(circle, rgba(48,48,48,1) 0%, rgba(70,69,41,1) 49%, rgba(48,48,48,1) 100%);
+  background: rgb(48,48,48);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.container {
+  left: 40%;
+  position: absolute;
+  width: @width0;
+}
+form.com {
+  align-items: center;
+  background-image: linear-gradient(to top, #2b2a25, #788675);
+  border: 1px solid #000000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  width: @width0;
+}
+.input-title {
+  align-self: start;
+  font-weight: bold;
+}
+.title {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+.com {
+  input[type=text] {
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    width: @width1;
+  }
+  input[type=email] {
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    width: @width1;
+  }
+  input[type=url] {
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    width: @width1;
+  }
+  input[type=submit] {
+    align-self: start;
+    background-image: linear-gradient(to top, #8b4716, #f0da87);
+    border-radius: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    width: 50%;
+  }
+}
+#comment {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  height: 100px;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  resize: none;
+  width: @width1;
+}

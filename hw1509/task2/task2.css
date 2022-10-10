@@ -1,0 +1,62 @@
+.subscription-table {
+    font-family: Constantia, sans-serif;
+    background-color: #f3f3f3;
+}
+
+.subscription-table td {
+    text-align: center;
+    padding: 7px 10px;
+    font-size: 20px;
+}
+
+.subscription-table th {
+    color: white;
+    font-size: 20px;
+    font-weight: unset;
+    padding: 20px 10px;
+}
+
+.subscription-table th:nth-child(2)
+{
+    border-top-left-radius: 6px;
+}
+
+.subscription-table > tbody > tr:last-child > td:last-child
+{
+    border-bottom-right-radius: 6px;
+}
+
+.subscription-table > tbody > tr:last-child > td:nth-child(2)
+{
+    border-bottom-left-radius: 6px;
+}
+
+.subscription-table th:last-child
+{
+    border-top-right-radius: 6px;
+}
+
+.subscription-table > thead > tr > th:not(:first-child),
+.subscription-table > tbody > tr:last-child > td:not(:first-child){
+    background: black;
+}
+
+.subscription-table > tbody > tr:last-child {
+    color: orange;
+}
+
+.subscription-table > tbody > tr > td:first-child {
+    background: white;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+}
+
+.subscription-table > tbody > tr:last-child > td:first-child {
+    color: gray;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}

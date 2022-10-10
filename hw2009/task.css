@@ -1,0 +1,220 @@
+.container1 {
+    position: relative;
+    top: 30px
+}
+
+.container2 {
+    position: relative;
+    top: 60px
+}
+
+.container3 {
+    position: relative;
+    top: 90px
+}
+
+.container4 {
+    position: relative;
+    top: 130px
+}
+
+.container5 {
+    position: relative;
+    top: 170px
+}
+
+.loader1-1 {
+    animation-delay: 1s;
+}
+.loader1-2 {
+    animation-delay: 2s;
+    left: 12px
+}
+.loader1-3 {
+    animation-delay: 3s;
+    left: 24px
+}
+
+.loader1-1, .loader1-2, .loader1-3 {
+    background-color: #4890ff;
+    display: table-cell;
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    animation-name: loader1-animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+.loader2-1 {
+    animation-delay: 1s;
+}
+.loader2-2 {
+    animation-delay: 2s;
+    left: 2px;
+}
+.loader2-3 {
+    animation-delay: 3s;
+    left: 4px;
+}
+
+.loader2-1, .loader2-2, .loader2-3 {
+    background-color: #4890ff;
+    display: table-cell;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    animation-name: loader2-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+.loader3-1 {
+    animation-delay: 1s;
+}
+.loader3-2 {
+    animation-delay: 2s;
+    left: 2px;
+}
+.loader3-3 {
+    animation-delay: 3s;
+    left: 4px;
+}
+
+.loader3-1, .loader3-2, .loader3-3 {
+    background-color: #4890ff;
+    display: table-cell;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    animation-name: loader3-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+.loader4-1 {
+    animation-delay: 1s;
+}
+.loader4-2 {
+    animation-delay: 1.1s;
+    left: 10px;
+}
+.loader4-3 {
+    animation-delay: 1.2s;
+    left: 19px;
+}
+.loader4-4 {
+    animation-delay: 1.3s;
+    left: 27px;
+}
+.loader4-5 {
+    animation-delay: 1.4s;
+    left: 36px;
+}
+.loader4-6 {
+    animation-delay: 1.5s;
+    left: 41px;
+}
+.loader4-7 {
+    animation-delay: 1.6s;
+    left: 49px;
+}
+.loader4-8 {
+    animation-delay: 1.7s;
+    left: 57px;
+}
+.loader4-9 {
+    animation-delay: 1.8s;
+    left: 60px;
+}
+
+.loader4-1, .loader4-2, .loader4-3,
+.loader4-4, .loader4-5, .loader4-6,
+.loader4-7, .loader4-8, .loader4-9 {
+    display: table-cell;
+    position: absolute;
+    animation-name: loader4-animation;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.loader5-1 {
+    background-color: #4890ff;
+    display: table-cell;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    animation-name: loader5-animation;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes loader1-animation {
+    from {
+        width: 10px;
+        height: 10px;
+    }
+
+    to {
+        height: 20px;
+    }
+}
+
+@keyframes loader2-animation {
+    from {
+        width: 10px;
+        height: 10px;
+    }
+
+    to {
+        width: 20px;
+    }
+}
+
+@keyframes loader3-animation {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: 10px;
+    }
+}
+
+@keyframes loader4-animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes loader5-animation {
+    from {
+        width: 10px;
+        left: 25px;
+    }
+    to {
+        width: 25px;
+        left: 0;
+    }
+}

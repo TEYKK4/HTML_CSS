@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-item1 {
+    width: 33%;
+    height: 150px;
+    background-color: #03d29e;
+}
+.container-item2 {
+    width: 49.73%;
+    height: 225px;
+    background-color: #4fa7ff;
+}
+.container-item3 {
+    width: 100%;
+    height: 450px;
+    background-color: #ff7674;
+}
+
+@media screen and (max-width: 900px)
+{
+    .container {
+        flex-direction: column;
+    }
+}
